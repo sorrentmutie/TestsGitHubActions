@@ -11,7 +11,7 @@ namespace Demo.Tests
             var c = new Calculator();
             var a = 5;
             var b = 4;
-            var expected = 10;
+            var expected = 9;
             var calculated = c.Sum(a, b);
             Assert.AreEqual(expected, calculated, "Sum of {0} and {1} should be {2}", a, b, expected);
         }
